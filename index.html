@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fakestore api</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+        <div>
+            <h1>Product Listing</h1>
+            <select id="filter" >
+                <option id="men" onclick="mensdata()" value="men's clothing">men's clothing</option>
+                <option  id="electronic" value="electronics">electronics</option>
+                <option id="jewelery" value="jewelery">jewelery</option>
+                <option id="women" value="women's clothing">Women's clothing</option>
+            </select>
+            <input type="text" placeholder="search here">
+            <button>search</button>
+            <select name="" id="sort">
+                <option value="high to low">High to Low</option>
+                <option value="low to high">Low to high</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div id="container"></div>
+</body>
+<script src="./script/index.js"></script>
+</html>
